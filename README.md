@@ -26,19 +26,19 @@ This SDK is for use with Node.js only. It does not support other usages, such as
 Using npm
 
 ```
-npm install d1f41b78a4cf49f9888a71b5fe729cdb
+npm install lotr-api
 ```
 
 Using yarn
 
 ```
-yarn add d1f41b78a4cf49f9888a71b5fe729cdb
+yarn add lotr-api
 ```
 
 Using pnpm
 
 ```
-pnpm install d1f41b78a4cf49f9888a71b5fe729cdb
+pnpm install lotr-api
 ```
 
 ## Quickstart
@@ -48,7 +48,7 @@ Before using any of the services, please obtain a access token from https://the-
 Using commonjs:
 
 ```
-const { LOTR } = require('d1f41b78a4cf49f9888a71b5fe729cdb')
+const { LOTR } = require('lotr-api')
 const lotr = new LOTR({
     accessToken: 'your-access-token'
 })
@@ -57,7 +57,7 @@ const lotr = new LOTR({
 or using ES modules
 
 ```
-import { LOTR } from 'd1f41b78a4cf49f9888a71b5fe729cdb'
+import { LOTR } from 'lotr-api'
 const lotr = new LOTR({
     accessToken: 'your-access-token'
 })
